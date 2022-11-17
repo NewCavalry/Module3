@@ -1,0 +1,121 @@
+html, body {
+  height: 100%;
+  width: 100%;
+
+}
+
+/* Universal selector - Selects every tag */
+*{
+	margin: 0;
+	padding: 0;
+/* 	border: 1px solid red; */
+}
+
+body{
+    /*---------------------------------background image------------------------------------  */
+        background-image: url('WebsiteBackNoHello.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    /*--------------------fonts-------------------*/
+    
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+/*     h2 {
+        color: black;
+    } */
+
+/*---------------------------Script Font-------------------------------------------  */
+    h3 {
+        font-family: 'Mrs Saint Delafield', cursive;
+        font-size: 64px;
+		font-weight: lighter;
+        color: #6d85a8;
+		margin-top: 800px;
+        margin-left: 48px;
+		
+/* 		border-style: solid;
+		border-width: 1px;
+		border-color: magenta; */
+
+		border: solid 1px magenta;	
+    }
+    /*----------------------------body copy-------------------------------------  */
+    
+    /* Type selector - a specific type of tag */  
+    p {
+/*       margin-top: 450px; */
+      margin-bottom: 100px;
+      margin-right: 150px;
+      margin-left: 48px;
+	border: 1px solid magenta;
+
+    }
+/*__________________________________________Navigation Bar_____________________________________________  */
+    /* Class selector */
+	.topnav {
+/* 		text-align: right; */
+/*         padding: 18px; */
+        color: white;
+/*         margin-top: 72px; */
+/*         margin-right: 36px; */
+        font-size: 24px;
+		margin: 100px 0 0 0;
+		
+    }
+
+	/* Grouped selectors */
+	.topnav, li {
+/* 		border: 1px solid magenta; */
+	}
+
+	/* Descendant selectors - Links inside .topnav */
+	.topnav a {
+		color: white;
+		text-decoration: none;
+	}
+
+	.topnav a:hover {
+		text-decoration: underline;
+	}
+
+	/* Descendant selectors */
+	.topnav ul {
+/* 		border: 1px solid black; */
+		text-align: right;
+		padding: 0 80px 0 0; /* Top right bottom left */
+	}
+
+	/* The descendant selector matches all elements that are descendants of a specified element. */
+	.topnav li {
+		list-style-type: none;
+		display: inline;
+		margin: 0 20px 0 20px;
+	}
+    /*-------------------------------------------------Try Footer-------------------------------  */
+    footer {
+        text-align: right;
+        padding: 20px;
+        background-color: #f07746;
+        color: black;
+    /*--------------------------------------body copy--------------------------------------------  */
+	}
+
+#mainVideo {
+	border: 5px solid magenta;
+	width: 400px;
+/* 	height: 700px; */
+/* 	border-radius: 50%; */
+	margin: 0 auto 0 auto;
+	display: block;
+}
+
+
+ 
+
+
+
+
